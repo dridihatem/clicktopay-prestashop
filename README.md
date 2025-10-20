@@ -1,18 +1,16 @@
 
-# MODULE OBSOLETE EN RAISON DU CHANGEMENT AU NIVEAU DE LA MONETIQUE TUNISIE
-***
+# ClicToPay Monétique Tunisie (SPS-SMT) – PrestaShop 8.x compatible
 
-
-# ClicToPay Monétique Tunisie (SPS-SMT) – Prestashop 1.7.x
+> Compatible with PrestaShop 8.2+
 
 ![logo ClicToPay](logo.png) 
 
-ClicToPay (SMT-SPS) est un module pour **Prestashop 1.7.x****  **de paiement en ligne destiné pour les commerçants en Tunisie.
+ClicToPay (SMT-SPS) est un module de paiement en ligne destiné aux commerçants en Tunisie. Cette version a été adaptée et testée pour **PrestaShop 8.2** tout en restant compatible avec **PrestaShop 1.7**.
 
 ## Caractéristiques et fonctionnalités du module ClicToPay (SMT-SPS) :
 
 > - Simple, performant.
-> - Répond aux normes de développements de Prestashop 1.7.x
+> - Répond aux normes de développements de PrestaShop 8.x
 > - Accepte les paiements multidevises \*\*selon votre accord avec la banque
 > - Accepte les paiements de différents cartes (locale et internationale) \*\*selon votre accord avec la banque
 > - Enregistré sous la licence BSD.
@@ -36,19 +34,29 @@ ClicToPay (SMT-SPS) est un module pour **Prestashop 1.7.x****  **de paiement en 
 
 ## Liens de Configuration
 
-Rajouter « **http(s)://www.domain.com**» avant les liens.
+Rajouter « **http(s)://www.domain.com** » avant les liens (ou votre sous-dossier si applicable, ex. `https://www.domain.com/boutique/`).
 
-> - Contrôle et Notification
+> - Contrôle et Notification (server-to-server callbacks)
 >  - /index.php?fc=module&amp;module=clictopay&amp;controller=smtcontrol
 > - Success
 >  - /index.php?fc=module&amp;module=clictopay&amp;controller=success
 > - Echec
 >  - /index.php?fc=module&amp;module=clictopay&amp;controller=echec
 
+Exemples d’URLs complètes:
+
+- Notification: `https://www.domain.com/index.php?fc=module&module=clictopay&controller=smtcontrol`
+- Succès: `https://www.domain.com/index.php?fc=module&module=clictopay&controller=success`
+- Échec: `https://www.domain.com/index.php?fc=module&module=clictopay&controller=echec`
+
+## Auteur / Crédits
+
+- Web Developer: **Hatem Dridi**
+- Module d’origine: **ExtrumWeb International**
+
 ## Licence
 
-Ce Module est sous la licence BSD. Développé par  [ExtrumWeb International](https://www.extrumweb.com/)
+Ce module est sous la licence BSD. Développé par  [ExtrumWeb International](https://www.extrumweb.com/) et adapté pour PrestaShop 8.x.
 
 Voir [LICENCE](https://github.com/agencep/ClicToPay-SMT/blob/master/LICENSE.txt)
-# clicktopay-prestashop
-# clicktopay-prestashop
+ 
